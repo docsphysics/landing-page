@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 40px 5% 5000px 5%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    padding: 0;
+}
+
+#header-list {
+    margin-right: auto;
+    padding-left: 0;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    list-style: none;
+    width: 90%;
+    background-color:#04AA6D;
+    outline: black 1px solid;
+}
+
+
+#header-list li {
+    outline: black 1px solid;
+    background-color:#04AA6D;
+}
+
+
+section {
+    border-bottom: black solid;
+    padding-top: 40px;
+    margin-top: -40px;
+    padding-bottom: 15px;
+}
+
+a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #111;
+  }
+
+
+a:visited a:link a:focus a:active{
+     color: white;
+}
