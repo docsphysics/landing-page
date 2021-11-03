@@ -26,13 +26,13 @@ body {
 }
 
 
-.listd {
+.li-inactive {
     outline: black 1px solid;
     background-color:#04AA6D;
 }
 
 /* Colour of list item on top */
-.liontop {
+.li-active {
     outline: black 1px solid;
     background-color: gray;
 }
