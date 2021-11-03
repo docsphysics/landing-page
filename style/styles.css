@@ -26,11 +26,16 @@ body {
 }
 
 
-#header-list li {
+.listd {
     outline: black 1px solid;
     background-color:#04AA6D;
 }
 
+/* Colour of list item on top */
+.liontop {
+    outline: black 1px solid;
+    background-color: gray;
+}
 
 section {
     border-bottom: black solid;
