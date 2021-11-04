@@ -11,6 +11,7 @@ body {
     height: 40px;
     width: 100%;
     padding: 0;
+    transition: ease-out 0.25s;
 }
 
 #header-list {
@@ -57,6 +58,24 @@ a:hover {
   }
 
 
-a:visited a:link a:focus a:active{
+a:visited a:link a:focus a:active {
      color: white;
 }
+
+.collapsible {
+    display: flex;
+    justify-content:space-between;
+}
+
+.content {
+    transition: max-height 0.2s ease-out;
+}
+
+.btn {
+    background-color: white;
+    border-style: none;
+    font-size: 18;
+    font-weight: bold ;
+    transition: 0.5s;
+}
+
