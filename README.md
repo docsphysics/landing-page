@@ -93,6 +93,8 @@ To use this project, first clone the repo on your device using the command below
 
 <!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
 
+```Run index.html in the main branch to use this project.```
+
 # Development
 [(Back to top)](#table-of-contents)
 
