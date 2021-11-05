@@ -80,13 +80,13 @@ Following this steps, **they should be able to run this in their device.**
 
 A method I use is after completing the README, I go through the instructions from scratch and check if it is working. -->
 
-<!-- Here is a sample instruction:
+Installation instruction:
 
 To use this project, first clone the repo on your device using the command below:
 
 ```git init```
 
-```git clone https://github.com/navendu-pottekkat/nsfw-filter.git``` -->
+```git clone https://github.com/docsphysics/landing-page.git``` 
 
 # Usage
 [(Back to top)](#table-of-contents)
