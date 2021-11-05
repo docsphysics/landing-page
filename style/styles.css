@@ -5,7 +5,7 @@ body {
 
 .header {
     display: flex;
-    align-items: center;
+    align-items:center;
     position: fixed;
     top: 0;
     height: 40px;
@@ -15,6 +15,7 @@ body {
 }
 
 #header-list {
+    margin-top: auto;
     margin-right: auto;
     padding-left: 0;
     display: flex;
@@ -51,6 +52,7 @@ a {
     color: white;
     text-align: center;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 a:hover {
@@ -79,3 +81,9 @@ a:visited a:link a:focus a:active {
     transition: 0.5s;
 }
 
+@media only screen and (max-width: 600px) {
+    a {
+        padding: 10px 3px;
+        font-size: 0.9rem;
+    }
+  }
