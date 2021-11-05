@@ -48,11 +48,11 @@ section {
 
 a {
     display: block;
-    padding: 10px 15px;
+    padding: 10px 3px;
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 }
 
 a:hover {
@@ -81,9 +81,17 @@ a:visited a:link a:focus a:active {
     transition: 0.5s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     a {
-        padding: 10px 3px;
-        font-size: 0.9rem;
+        padding: 10px 8px;
+        font-size: 1.0rem;
     }
   }
+
+@media only screen and (min-width: 768px) {
+    a {
+        padding: 10px 15px;
+        font-size: 1.2rem;
+    }
+  }
+
