@@ -1,6 +1,6 @@
 <!-- Add banner here -->
 
-# Project Title
+# Project Title: Landing page
 
 <!-- Add buttons here -->
 
